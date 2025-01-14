@@ -45,22 +45,31 @@ console.log(nombreAlumnos.includes("Jorge")); */
 /* Sort - Ordena alfabeticamente los elementos */
 /* console.log(nombreAlumnos.sort()); */
 
-let nombreAlumnos = ["Lucas", "Nahuel", "Claudio", "Julian", "Andres"];
+/* let nombreAlumnos = ["Lucas", "Nahuel", "Claudio", "Julian", "Andres"];
 
 for (let i = 0; i < nombreAlumnos.length; i++) {
   const nombre = nombreAlumnos[i];
   console.log(nombre);
 }
-
+ */
 /* Concat */
-const numerosPares = [2, 4, 6, 8];
-const numerosImpares = [1, 3, 5, 7, 9];
+/* const numerosPares = [2, 4, 6, 8];
+const numerosImpares = [1, 3, 5, 7, 9]; */
 
-const numeros = numerosImpares.concat(numerosPares);
-console.log(numeros);
+/* const numeros = numerosImpares.concat(numerosPares);
+console.log(numeros); */
 
 /* Join - unir - une el array en un string*/
 /* console.log(nombreAlumnos.join("-")); */
 
 /* split - separa un string en un array */
 /* console.log("hola como estas?".split(" ")); */
+
+/* slice - splice - investigar*/
+/* slice */
+/* const numerosPares = [2, 4, 6, 8];
+const numerosSlice = numerosPares.slice(0, 2);
+console.log(numerosSlice); */
+/* splice */
+/* numerosPares.splice(2, 0, 10);
+console.log(numerosPares); */
